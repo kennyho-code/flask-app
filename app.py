@@ -8,6 +8,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
+    """Return a hello world message when accessing the root endpoint.
+
+    Returns:
+        str: A hello world message
+    """
     message = hello_world_fn()
     return message
 
