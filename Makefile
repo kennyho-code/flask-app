@@ -6,4 +6,5 @@ lint:
 	pylint *.py
 format:
 	 black *.py
-
+test:
+	pytest tests
