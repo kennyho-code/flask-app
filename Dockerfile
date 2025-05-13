@@ -22,4 +22,4 @@ ENV FLASK_RUN_PORT=8080
 EXPOSE 8080
 
 # Command to run the application
-CMD ["python", "app.py"]
+CMD ["flask", "run"]
